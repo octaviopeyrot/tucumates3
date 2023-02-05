@@ -1,0 +1,213 @@
+@media(max-width: 768px){
+
+    // NAVBAR
+    header{
+        .navbar{   
+            li{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+    // INDEX
+    .main-inicio{
+        .titulo-inicio{
+            padding: 20px;
+            h1{
+                font-size: 40px;
+            }
+            h2{
+                font-size: 12px;
+            }
+        }
+    .mates-inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+
+        h3{
+            position: absolute;
+            width: 139px;
+            height: 29px;
+            left: 125px;
+            top: 215px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        a{
+            img{
+                position: absolute;
+                width: 171px;
+                height: 142px;
+                left: 109px;
+                top: 264px;
+            }
+        }
+        p{
+            font-size: 20px;
+            position: absolute;
+            width: 358px;
+            height: 63px;
+            left: 16px;
+            top: 422px;
+            font-family: 'Gotu';
+        }
+    }
+    .bombillas-inicio{
+        h3{
+            position: absolute;
+            width: 172px;
+            height: 29px;
+            left: 105px;
+            top: 527px;
+            font-size: 20px;
+        }
+        a{
+            img{
+                position: absolute;
+                width: 179px;
+                height: 129px;
+                left: 106px;
+                top: 568px;
+            }
+        }
+        p{
+            position: absolute;
+            width: 358px;
+            height: 84px;
+            left: 16px;
+            top: 733px;
+            font-size: 20px;
+        }
+    }
+    }
+
+    // MAIN MATES
+    .main-mates{
+
+        h1{
+            font-size: 20px;
+        }
+        .comprar{
+            font-size: 18px;
+        }
+
+        .mates{
+            display: flex;
+            flex-direction: column;
+            column-gap: 50px;
+
+            .imperial{
+                padding: 20px;
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+            .camionero{
+                padding: 20px;
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+            .camionero-eco{
+                padding: 20px;
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+        }
+    }
+
+    // MAIN BOMBILLAS
+    .main-bombillas{
+        h1{
+            font-size: 20px;
+        }
+        .comprar{
+            font-size: 18px;
+        }
+
+        .bombillas{
+            display: flex;
+            flex-direction: column;
+            column-gap: 50px;
+
+            .pico-de-loro-alpaca{
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+            .bombillon{
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+            .pico-de-loro-de-acero{
+                img{
+                    width: 245px;
+                    height: 154.86px;
+                }
+                h3{
+                    font-size:15px
+                }
+            }
+        }
+    }
+
+    // MAIN PRESENTACION
+
+    .main-presentacion{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 32px;
+        }
+    }
+}
+
+// MAIN CONTACTO
+
+    .main-contacto{
+        text-align: center;
+        font-size: 16px;
+
+        .instagram{
+            img{
+                padding: 15px;
+            }
+        }
+        .facebook{
+            img{
+                padding: 15px;
+            }
+        }
+        .wp{
+            img{
+                padding: 15px;
+            }
+        }
+    }

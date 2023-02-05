@@ -1,0 +1,24 @@
+header{
+    background-color: #DDA841CC;
+    height: cover; 
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 35px;
+        
+        li{
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 32px;
+            }
+
+        }
+}
+    } 
+    
+

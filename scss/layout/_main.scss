@@ -1,0 +1,237 @@
+// MAIN INDEX
+.body-inicio{
+
+    background-image: url(../assets/img/fondo_inicio_desk.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .titulo-inicio{
+        h1{
+            text-align: center;
+            font-size: 64px;
+            top:167px;
+            font-family: 'Georama';
+        }
+        h2{
+            font-family: 'Georama';
+            text-align: center;
+            top:243px;
+        }
+        }
+        .mates-inicio{
+            a{
+                img{
+                    position: absolute;
+                    height: 307px;
+                    left: 47px;
+                    top: 304px;
+                }
+            }
+            h3{
+                text-align: center;
+                position: absolute;
+                height: 46px;
+                left: 527px;
+                top: 304px;
+                font-family: 'Gowun Batang';
+                font-weight: 700;
+                font-size: 32px;
+            }
+            p{
+                position: absolute;
+                height: 200px;
+                left: 527px;
+                top: 400px;
+                font-family: 'Gotu';
+                font-weight: 400;
+                font-size: 32px;             
+            }
+            }
+        .bombillas-inicio{
+            a{
+                img{
+                    position: absolute;
+                    height: 307px;
+                    left: 47px;
+                    top: 651px;
+                }
+            }
+            h3{
+                position: absolute;
+                height: 46px;
+                left: 527px;
+                top: 651px;
+                
+                font-family: 'Gowun Batang';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 46px;
+                text-align: center;
+            }
+            p{
+                position: absolute;
+                height: 198px;
+                left: 527px;
+                top: 716px;
+                
+                font-family: 'Gotu';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+            }
+        }
+    }
+
+// MAIN MATES
+
+.body-mates{
+    background-color: #FFD089;
+}
+
+.main-mates{
+
+    background-color: #FFD089;
+    size: 100%;
+
+    h1{
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Gowun Batang';
+        padding: 70px;
+    }
+
+    .mates{
+        font-family: 'Gowun Batang';
+        font-size: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+
+        .imperial{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            }
+        }
+        .camionero{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+
+        }
+        .camionero-eco{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            }
+        }
+    
+
+// MAIN BOMBILLAS
+.body-bombillas{
+    background-color: #FFD089;
+}
+.main-bombillas{
+    h1{
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Gowun Batang';
+        padding: 70px;
+    }
+    .bombillas{
+        font-family: 'Gowun Batang';
+        font-size: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+
+        .pico-de-loro-alpaca{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .bombillon{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .pico-de-loro-de-acero{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+    }
+}
+
+// MAIN PRESENTACION
+
+.body-presentacion{
+    background-color: #FFD089;
+}
+.main-presentacion{
+            h1{     
+                text-align: center;
+                font-size: 48px;
+                font-family: 'Gowun Batang';
+                padding: 70px;
+            }
+            p{           
+                font-family: 'Georama';
+                font-size: 48px;
+                text-align: center;
+            }
+            }
+    
+    
+// MAIN CONTACTO
+
+    .body-contacto{
+        background-image: url(../assets/img/fondo_presentacion_desk.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+
+        .main-contacto{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 90px;
+            gap: 50px;
+
+            .instagram{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .facebook{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .wp{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        }
+    }
