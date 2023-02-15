@@ -2,10 +2,13 @@
 
     // NAVBAR
     header{
-        .navbar{   
+        .navbar{
+            flex-direction: column;
+            padding: 10px;
+            gap: 10px;
             li{
                 a{
-                    font-size: 20px;
+                    font-size: 22px;
                 }
             }
         }
@@ -179,15 +182,17 @@
 
     // MAIN PRESENTACION
 
-    .main-presentacion{
-        h1{
-            font-size: 40px;
-        }
-        p{
-            font-size: 32px;
+    .body-presentacion{
+        .main-presentacion{
+
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 25px;
+            }
         }
     }
-}
 
 // MAIN CONTACTO
 
@@ -210,4 +215,5 @@
                 padding: 15px;
             }
         }
+    }
     }

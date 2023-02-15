@@ -155,17 +155,15 @@ header {
 
 .body-presentacion {
   background-color: #FFD089; }
-
-.main-presentacion h1 {
-  text-align: center;
-  font-size: 48px;
-  font-family: 'Gowun Batang';
-  padding: 70px; }
-
-.main-presentacion p {
-  font-family: 'Georama';
-  font-size: 48px;
-  text-align: center; }
+  .body-presentacion .main-presentacion h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gowun Batang';
+    padding: 70px; }
+  .body-presentacion .main-presentacion p {
+    font-family: 'Georama';
+    font-size: 48px;
+    text-align: center; }
 
 .body-contacto {
   background-image: url(../assets/img/fondo_presentacion_desk.png);
@@ -197,8 +195,12 @@ header {
       align-items: center; }
 
 @media (max-width: 768px) {
-  header .navbar li a {
-    font-size: 20px; }
+  header .navbar {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px; }
+    header .navbar li a {
+      font-size: 22px; }
   .main-inicio .titulo-inicio {
     padding: 20px; }
     .main-inicio .titulo-inicio h1 {
@@ -303,17 +305,16 @@ header {
       height: 154.86px; }
     .main-bombillas .bombillas .pico-de-loro-de-acero h3 {
       font-size: 15px; }
-  .main-presentacion h1 {
+  .body-presentacion .main-presentacion h1 {
     font-size: 40px; }
-  .main-presentacion p {
-    font-size: 32px; } }
-
-.main-contacto {
-  text-align: center;
-  font-size: 16px; }
-  .main-contacto .instagram img {
-    padding: 15px; }
-  .main-contacto .facebook img {
-    padding: 15px; }
-  .main-contacto .wp img {
-    padding: 15px; }
+  .body-presentacion .main-presentacion p {
+    font-size: 25px; }
+  .main-contacto {
+    text-align: center;
+    font-size: 16px; }
+    .main-contacto .instagram img {
+      padding: 15px; }
+    .main-contacto .facebook img {
+      padding: 15px; }
+    .main-contacto .wp img {
+      padding: 15px; } }
